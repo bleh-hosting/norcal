@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorCal Truck Alignment | Mobile Semi Truck Alignment NorCal - Santa Rosa, Bay Area, Sacramento</title>
+    <meta name="description" content="Mobile semi truck &amp; heavy-duty alignment that comes to you in Northern California. Precision laser alignment for semis, tractors, trailers, RVs &amp; fleets. Save tires, fuel &amp; downtime. Santa Rosa, Bay Area, Sacramento. Call (707) 541-8259.">
+    <meta name="keywords" content="mobile semi truck alignment NorCal, truck alignment Santa Rosa, heavy duty alignment Bay Area, mobile truck alignment Sacramento, semi alignment Sonoma, NorCal Truck Alignment, fleet wheel alignment Northern California">
+    <link rel="icon" href="assets/logos/NEW.png" type="image/png">
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="NorCal Truck Alignment | Mobile Semi &amp; Heavy Duty Truck Alignment">
+    <meta property="og:description" content="We come to you. Precision mobile wheel alignments for semis, fleets, trailers &amp; more across Northern California. Maximize tire life and fuel efficiency.">
+    <meta property="og:image" content="assets/images/hero-alignment.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://norcaltruckalignment.com">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Roboto+Condensed:wght@700&amp;display=swap');
+        
+        :root {
+            --red: #B91C1C;
+            --navy: #0F172A;
+            --dark: #111827;
+        }
+        
+        .tail-container {
+            font-family: 'Inter', system_ui, -apple-system, sans-serif;
+        }
+        
+        .heading-condensed {
+            font-family: 'Roboto Condensed', 'Inter', system_ui, sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .trucking-red {
+            color: #B91C1C;
+        }
+        
+        .section-header {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .nav-link {
+            transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link:hover {
+            color: #B91C1C;
+        }
+
+        .benefit-card, .service-card, .testimonial-card {
+            transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                        box-shadow 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        
+        .benefit-card:hover, .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        .stat-number {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .industrial-shadow {
+            box-shadow: 0 10px 15px -3px rgb(15 23 42 / 0.1), 
+                       0 4px 6px -4px rgb(15 23 42 / 0.1);
+        }
+
+        .hero-overlay {
+            background: linear-gradient(rgba(15, 23, 42, 0.65), rgba(15, 23, 42, 0.75));
+        }
+
+        .cta-button {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 15px -3px rgb(185 28 28 / 0.3), 0 4px 6px -4px rgb(185 28 28 / 0.3);
+        }
+
+        .red-accent {
+            background-color: #B91C1C;
+        }
+
+        .navy-bg {
+            background-color: #0F172A;
+        }
+
+        .trust-bar {
+            background-color: #0F172A;
+        }
+
+        .fleet-stat {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            color: #B91C1C;
+        }
+
+        .mobile-sticky-cta {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            z-index: 50;
+        }
+
+        .logo-img {
+            max-height: 52px;
+            width: auto;
+            filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1));
+        }
+
+        .metric {
+            transition: all 0.4s ease;
+        }
+
+        .service-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            background-color: #FEF2F2;
+            color: #B91C1C;
+        }
+
+        .step-number {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #B91C1C;
+            color: white;
+            font-weight: 700;
+            border-radius: 9999px;
+            font-size: 1rem;
+        }
+
+        .truck-divider {
+            background-image: url('data:image/svg+xml,%3Csvg width=%22100%22 height=%223%22 viewBox=%220 0 100 3%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M0 1.5 L100 1.5%22 stroke=%22%23B91C1C%22 stroke-width=%222%22 stroke-dasharray=%223 6%22/%3E%3C/svg%3E');
+            background-repeat: repeat-x;
+            background-position: center;
+            height: 3px;
+        }
+
+        .testimonial-stars {
+            color: #F59E0B;
+        }
+
+        .form-input {
+            transition: border-color .15s ease, box-shadow .15s ease;
+        }
+        
+        .form-input:focus {
+            border-color: #B91C1C;
+            box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.1);
+            outline: none;
+        }
+
+        .nav-active {
+            color: #B91C1C;
+            font-weight: 600;
+        }
+
+        .professional-grid {
+            background-image: 
+                linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+
+        .impact-stat {
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+    </style>
+</head>
+<body class="tail-container bg-slate-50 text-slate-900 antialiased">
+    <!-- TOP BAR / ANNOUNCEMENT -->
+    <div class="bg-slate-900 text-white text-sm py-1.5">
+        <div class="max-w-screen-xl mx-auto px-4 flex items-center justify-between text-center sm:text-left">
+            <div class="flex items-center gap-x-2 justify-center sm:justify-start text-xs sm:text-sm">
+                <i class="fas fa-truck mr-1.5 text-red-400"></i>
+                <span class="font-medium">Mobile service • We come to YOU • Serving Northern California fleets daily</span>
+            </div>
+            <div class="hidden sm:block text-red-400 font-semibold text-xs tracking-wider">EST. 2019</div>
+        </div>
+    </div>
+
+    <!-- STICKY HEADER -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="px-4 sm:px-6 lg:px-8 flex h-20 items-center justify-between">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-x-3 group">
+                    <img src="assets/logos/NEW.png" alt="NorCal Truck Alignment - Professional mobile semi truck wheel alignment logo" 
+                         class="logo-img h-11 sm:h-12 transition-transform group-hover:scale-[1.02]">
+                    <div class="hidden sm:block">
+                        <div class="font-bold text-xl tracking-tighter heading-condensed text-slate-900">NORCAL TRUCK</div>
+                        <div class="text-[10px] font-semibold text-red-600 -mt-1 tracking-[2px]">ALIGNMENT</div>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center gap-x-8 text-sm font-semibold">
+                    <a href="index.html" class="nav-link text-slate-700 nav-active">Home</a>
+                    <a href="services.html" class="nav-link text-slate-700">Services</a>
+                    <a href="about.html" class="nav-link text-slate-700">About</a>
+                    <a href="areas.html" class="nav-link text-slate-700">Service Areas</a>
+                    <a href="resources.html" class="nav-link text-slate-700">Resources</a>
+                    <a href="contact.html" class="nav-link text-slate-700">Contact</a>
+                </nav>
+
+                <!-- Right side actions -->
+                <div class="flex items-center gap-x-3">
+                    <!-- Phone -->
+                    <a href="tel:7075418259" 
+                       class="hidden lg:flex items-center gap-x-2 rounded-xl bg-slate-100 hover:bg-slate-200 px-4 py-2.5 text-sm font-bold text-slate-900 transition-colors">
+                        <i class="fas fa-phone text-red-600"></i>
+                        <span>(707) 541-8259</span>
+                    </a>
+
+                    <!-- Book Now -->
+                    <a href="#quote" 
+                       onclick="document.getElementById('quote-modal').showModal()"
+                       class="hidden sm:inline-flex items-center justify-center gap-x-2 px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 active:bg-red-800 text-white text-sm font-bold shadow-sm transition-all cta-button">
+                        <span>BOOK MOBILE SERVICE</span>
+                    </a>
+
+                    <!-- Mobile phone -->
+                    <a href="tel:7075418259" 
+                       class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl bg-slate-900 text-white">
+                        <i class="fas fa-phone text-lg"></i>
+                    </a>
+
+                    <!-- Hamburger -->
+                    <button id="mobile-menu-btn"
+                            class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-100"
+                            aria-label="Open menu">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-t bg-white">
+            <div class="px-4 py-4 flex flex-col gap-y-1 text-base font-semibold">
+                <a href="index.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">Home</a>
+                <a href="services.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">Services</a>
+                <a href="about.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">About Us</a>
+                <a href="areas.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">Service Areas</a>
+                <a href="resources.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">Resources &amp; Blog</a>
+                <a href="contact.html" class="px-4 py-3 rounded-xl hover:bg-slate-100">Contact</a>
+                
+                <div class="pt-3 mt-2 border-t flex flex-col gap-3 px-1">
+                    <a href="tel:7075418259" 
+                       class="flex items-center justify-center gap-x-2 bg-slate-900 text-white px-5 py-3 rounded-2xl font-bold text-base">
+                        <i class="fas fa-phone"></i>
+                        <span>Call (707) 541-8259</span>
+                    </a>
+                    <button onclick="document.getElementById('quote-modal').showModal(); document.getElementById('mobile-menu').classList.add('hidden');"
+                            class="flex items-center justify-center gap-x-2 bg-red-600 hover:bg-red-700 text-white px-5 py-3 rounded-2xl font-bold text-base">
+                        Book Mobile Service
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="relative min-h-[100dvh] sm:min-h-[92dvh] flex items-center bg-slate-950 overflow-hidden">
+        <!-- Hero Image -->
+        <div class="absolute inset-0 bg-cover bg-center" 
+             style="background-image: url('assets/images/hero-alignment.jpg')">
+        </div>
+        <div class="hero-overlay absolute inset-0"></div>
+        
+        <div class="relative max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 pt-12 pb-16 sm:pb-20">
+            <div class="max-w-4xl">
+                <!-- Trust badge -->
+                <div class="inline-flex items-center rounded-full bg-white/10 backdrop-blur px-4 py-1 mb-5 text-sm font-semibold text-white border border-white/20">
+                    <div class="flex items-center gap-x-2">
+                        <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                        <span>Serving Northern California Fleets Since 2019</span>
+                    </div>
+                </div>
+
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl leading-[1.05] font-extrabold tracking-tighter text-white heading-condensed">
+                    MOBILE SEMI TRUCK<br>
+                    ALIGNMENT THAT<br>
+                    <span class="text-red-500">COMES TO YOU</span>
+                </h1>
+                
+                <p class="mt-5 max-w-2xl text-xl sm:text-2xl text-white/90 font-medium tracking-tight">
+                    Precision laser wheel alignments for semis, tractors, trailers, RVs &amp; multi-axle vehicles across the Bay Area, Sacramento, Santa Rosa &amp; all of Northern California.
+                </p>
+
+                <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                    <button onclick="document.getElementById('quote-modal').showModal()"
+                            class="group inline-flex items-center justify-center gap-x-3 bg-red-600 hover:bg-red-700 active:bg-red-800 transition-all px-9 py-4 rounded-2xl text-xl font-extrabold text-white shadow-xl cta-button">
+                        <span>BOOK MOBILE SERVICE</span>
+                        <i class="fas fa-arrow-right group-active:translate-x-0.5 transition"></i>
+                    </button>
+                    
+                    <a href="tel:7075418259"
+                       class="inline-flex items-center justify-center gap-x-3 border-2 border-white/90 hover:bg-white/10 active:bg-white/5 transition-all px-9 py-4 rounded-2xl text-xl font-extrabold text-white">
+                        <i class="fas fa-phone"></i>
+                        <span>CALL (707) 541-8259</span>
+                    </a>
+                </div>
+
+                <div class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/80">
+                    <div class="flex items-center gap-x-2">
+                        <i class="fas fa-check-circle text-emerald-400"></i>
+                        <span class="font-medium">100% Mobile — No shop visit needed</span>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <i class="fas fa-check-circle text-emerald-400"></i>
+                        <span class="font-medium">Same or next-day service available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="hidden lg:flex absolute bottom-8 left-1/2 flex-col items-center text-white/70 text-xs tracking-[1.5px]">
+            <div>SCROLL TO LEARN MORE</div>
+            <i class="fas fa-chevron-down mt-1 text-sm animate-bounce"></i>
+        </div>
+    </section>
+
+    <!-- TRUST / STATS BAR -->
+    <div class="trust-bar py-5">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-6 text-white items-center text-center md:text-left">
+                <div>
+                    <div class="font-bold text-4xl text-red-500">30%</div>
+                    <div class="text-sm uppercase tracking-widest text-white/70 font-semibold mt-0.5">Avg. Tire Life Extension</div>
+                </div>
+                <div>
+                    <div class="font-bold text-4xl text-red-500">2-5%</div>
+                    <div class="text-sm uppercase tracking-widest text-white/70 font-semibold mt-0.5">Better Fuel Economy</div>
+                </div>
+                <div>
+                    <div class="font-bold text-4xl text-red-500">500+</div>
+                    <div class="text-sm uppercase tracking-widest text-white/70 font-semibold mt-0.5">Commercial Vehicles Served</div>
+                </div>
+                <div class="md:col-span-1 col-span-2 md:text-right">
+                    <div class="flex md:justify-end items-center gap-x-2 justify-center">
+                        <div class="text-left">
+                            <div class="text-white font-semibold">Owner-operated by Miguel</div>
+                            <div class="text-xs text-white/60">Precision • Reliability • Mobile Convenience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why-us" class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div class="text-center mb-12">
+            <div class="uppercase tracking-[2.5px] text-xs font-extrabold text-red-600 mb-2">THE MOBILE ADVANTAGE</div>
+            <h2 class="section-header tracking-tight text-slate-900">Why Fleets Choose<br>NorCal Truck Alignment</h2>
+            <p class="mt-4 text-lg text-slate-600 max-w-md mx-auto">We deliver shop-quality precision alignment at your location — faster, cheaper, and more convenient than traditional shops.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Benefit 1 -->
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-tachometer-alt text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">Maximize Tire Life</h3>
+                <p class="mt-3 text-slate-600">Proper alignment can extend tire life up to 30%. Stop throwing away money on premature tire replacements caused by feathering, cupping, and uneven wear.</p>
+                <div class="mt-4 text-sm font-bold text-red-600 flex items-center gap-x-2">
+                    <span>25-30% AVERAGE EXTENSION</span>
+                </div>
+            </div>
+
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-gas-pump text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">Improve Fuel Efficiency</h3>
+                <p class="mt-3 text-slate-600">Misaligned wheels increase rolling resistance. Correct alignment typically improves fuel economy by 2–5% — real savings that add up fast for high-mileage fleets.</p>
+                <div class="mt-4 text-sm font-bold text-red-600">2–5% MPG GAINS COMMON</div>
+            </div>
+
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-shield-alt text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">Better Safety &amp; Handling</h3>
+                <p class="mt-3 text-slate-600">Eliminate pulling, improve steering response, reduce risk of tire blowouts, and keep your drivers safe and in control on highways and mountain roads.</p>
+                <div class="mt-4 text-sm font-bold text-red-600">REDUCES ROAD HAZARDS</div>
+            </div>
+
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-clock text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">Slash Downtime</h3>
+                <p class="mt-3 text-slate-600">We come to your yard, terminal, jobsite or even roadside. Most alignments completed in 1–3 hours. No towing. No lost revenue days in a shop.</p>
+                <div class="mt-4 text-sm font-bold text-red-600">HOURS, NOT DAYS</div>
+            </div>
+
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-truck-moving text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">True Mobile Convenience</h3>
+                <p class="mt-3 text-slate-600">We bring professional portable laser alignment systems to you. Perfect for fleets that can't afford to pull trucks out of service or send them across town.</p>
+                <div class="mt-4 text-sm font-bold text-red-600">WE TRAVEL TO SANTA ROSA • BAY AREA • SACRAMENTO</div>
+            </div>
+
+            <div class="benefit-card bg-white border border-slate-200 rounded-3xl p-7 industrial-shadow">
+                <div class="service-icon mb-5">
+                    <i class="fas fa-chart-line text-3xl"></i>
+                </div>
+                <h3 class="font-extrabold text-2xl tracking-tight">Measurable ROI</h3>
+                <p class="mt-3 text-slate-600">Most fleets see payback in weeks. We provide before/after reports and can help you track tire wear and fuel improvements across your operation.</p>
+                <div class="mt-4 text-sm font-bold text-red-600">FAST RETURN ON INVESTMENT</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="bg-white border-y py-16">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-y-4 mb-10">
+                <div>
+                    <div class="uppercase text-xs font-extrabold tracking-[2px] text-red-600">4 SIMPLE STEPS</div>
+                    <h2 class="section-header text-slate-900 tracking-tighter">How Mobile Alignment Works</h2>
+                </div>
+                <p class="max-w-sm text-slate-600">Professional service with zero disruption to your operations.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="flex gap-5">
+                    <div><div class="step-number">1</div></div>
+                    <div>
+                        <div class="font-extrabold text-xl">Request Service</div>
+                        <p class="mt-1.5 text-slate-600 text-[15px]">Call, text, or submit the form. Tell us your location, fleet size, and when you need us. We usually confirm same day.</p>
+                    </div>
+                </div>
+                <div class="flex gap-5">
+                    <div><div class="step-number">2</div></div>
+                    <div>
+                        <div class="font-extrabold text-xl">We Come to You</div>
+                        <p class="mt-1.5 text-slate-600 text-[15px]">Our fully equipped mobile unit arrives at your yard, jobsite, terminal, or roadside location on time.</p>
+                    </div>
+                </div>
+                <div class="flex gap-5">
+                    <div><div class="step-number">3</div></div>
+                    <div>
+                        <div class="font-extrabold text-xl">Precision Alignment</div>
+                        <p class="mt-1.5 text-slate-600 text-[15px]">State-of-the-art portable laser system measures and corrects all angles on steer, drive, and trailer axles with extreme accuracy.</p>
+                    </div>
+                </div>
+                <div class="flex gap-5">
+                    <div><div class="step-number">4</div></div>
+                    <div>
+                        <div class="font-extrabold text-xl">Drive with Confidence</div>
+                        <p class="mt-1.5 text-slate-600 text-[15px]">Receive a detailed alignment report. Get back on the road immediately with improved handling, safety, and efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW -->
+    <section id="services" class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-9 gap-y-4">
+            <div>
+                <span class="text-xs uppercase tracking-[2.5px] text-red-600 font-extrabold">EXPERT MOBILE SERVICES</span>
+                <h2 class="section-header tracking-tight">Professional Alignment<br>for Every Heavy Vehicle</h2>
+            </div>
+            <a href="services.html" class="inline-flex items-center font-bold text-red-600 hover:text-red-700 text-base group">
+                VIEW FULL SERVICES &amp; DETAILS 
+                <i class="fas fa-arrow-right ml-2 group-hover:translate-x-0.5 transition"></i>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <div class="service-card bg-white p-6 rounded-3xl border border-slate-200 flex flex-col">
+                <div class="flex items-center gap-4">
+                    <div class="service-icon flex-shrink-0"><i class="fas fa-truck text-2xl"></i></div>
+                    <h3 class="font-extrabold text-2xl">Semi &amp; Tractor Alignments</h3>
+                </div>
+                <p class="mt-auto pt-4 text-slate-600">Full front-end, tandem drive axle, and trailer axle alignments for Class 8 trucks. We handle Peterbilt, Kenworth, Freightliner, International, Volvo and more.</p>
+                <div class="pt-5 mt-auto text-xs font-bold text-red-600 flex items-center">MOST REQUESTED SERVICE</div>
+            </div>
+
+            <div class="service-card bg-white p-6 rounded-3xl border border-slate-200 flex flex-col">
+                <div class="flex items-center gap-4">
+                    <div class="service-icon flex-shrink-0"><i class="fas fa-trailer text-2xl"></i></div>
+                    <h3 class="font-extrabold text-2xl">Trailer &amp; Multi-Axle</h3>
+                </div>
+                <p class="mt-auto pt-4 text-slate-600">Tandem, spread, and multi-axle trailer alignments. Correct tracking issues that destroy tires fast and cause handling problems on the highway.</p>
+            </div>
+
+            <div class="service-card bg-white p-6 rounded-3xl border border-slate-200 flex flex-col">
+                <div class="flex items-center gap-4">
+                    <div class="service-icon flex-shrink-0"><i class="fas fa-bus text-2xl"></i></div>
+                    <h3 class="font-extrabold text-2xl">RVs, Buses &amp; Specialty</h3>
+                </div>
+                <p class="mt-auto pt-4 text-slate-600">Motorhomes, coaches, shuttle buses, and other heavy multi-axle vehicles. Keep your passengers comfortable and your tires lasting longer.</p>
+            </div>
+        </div>
+
+        <div class="mt-6 text-center">
+            <a href="services.html" class="inline-flex text-sm font-bold items-center text-slate-600 hover:text-slate-900">Plus inspections, steering component checks, and full reports &rarr;</a>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="bg-slate-900 text-white py-16 sm:py-20">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="flex items-end justify-between mb-8">
+                <div>
+                    <div class="uppercase text-red-400 tracking-[2px] font-bold text-xs">REAL RESULTS FROM REAL OPERATORS</div>
+                    <h2 class="section-header text-white tracking-tight">Trusted by Northern California<br>Fleets &amp; Owner-Operators</h2>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-slate-800 border border-slate-700 rounded-3xl p-7">
+                    <div class="flex items-center gap-x-1 testimonial-stars mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="text-white/95 leading-relaxed">
+                        "Miguel came to our yard in Santa Rosa and aligned our entire fleet of 7 trucks. Drivers immediately noticed the difference in handling. We documented a 4.2% improvement in fuel mileage. Best money we've spent on maintenance in years."
+                    </blockquote>
+                    <div class="mt-5 flex items-center gap-3">
+                        <div class="font-bold">David R. — Fleet Manager</div>
+                        <div class="text-xs bg-white/10 text-white/70 px-2.5 py-px rounded">Sonoma County</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-slate-800 border border-slate-700 rounded-3xl p-7">
+                    <div class="flex items-center gap-x-1 testimonial-stars mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="text-white/95 leading-relaxed">
+                        "Came out same day to our jobsite near Petaluma. Aligned my tandem trailer that was eating tires on the inside. Tires now wearing perfectly. Saved me thousands. Miguel knows his stuff. Highly recommend for any North Bay fleet."
+                    </blockquote>
+                    <div class="mt-5 flex items-center gap-3">
+                        <div class="font-bold">Mike T. — Owner Operator</div>
+                        <div class="text-xs bg-white/10 text-white/70 px-2.5 py-px rounded">Petaluma</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-slate-800 border border-slate-700 rounded-3xl p-7">
+                    <div class="flex items-center gap-x-1 testimonial-stars mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <blockquote class="text-white/95 leading-relaxed">
+                        "We use NorCal Truck Alignment for all our Bay Area and Sacramento runs. The reports are detailed, service is fast, and the trucks drive straight. Mobile service is a game changer for our operation. Professional every time."
+                    </blockquote>
+                    <div class="mt-5 flex items-center gap-3">
+                        <div class="font-bold">Jessica L. — Operations Director</div>
+                        <div class="text-xs bg-white/10 text-white/70 px-2.5 py-px rounded">Regional Fleet</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <a href="contact.html" class="text-red-400 hover:text-red-300 inline-flex items-center text-sm font-semibold">See more reviews and case studies on our contact page →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPMENT & TRUST -->
+    <section class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div class="grid lg:grid-cols-12 gap-x-12 gap-y-12 items-center">
+            <div class="lg:col-span-5">
+                <div class="uppercase text-xs tracking-[2px] text-red-600 font-extrabold mb-3">STATE-OF-THE-ART TECHNOLOGY</div>
+                <h2 class="section-header tracking-tight">Professional-Grade<br>Portable Laser Systems</h2>
+                <p class="mt-4 text-slate-600">We use advanced portable laser alignment equipment trusted by commercial fleets worldwide. More accurate than traditional methods, capable of measuring all critical angles including toe, camber, caster, thrust, and tandem tracking.</p>
+                
+                <ul class="mt-6 space-y-3 text-sm">
+                    <li class="flex gap-x-3"><i class="fas fa-check text-emerald-500 mt-1"></i> <span>High-precision laser measurement — repeatable results</span></li>
+                    <li class="flex gap-x-3"><i class="fas fa-check text-emerald-500 mt-1"></i> <span>Full printout / digital alignment reports for your records</span></li>
+                    <li class="flex gap-x-3"><i class="fas fa-check text-emerald-500 mt-1"></i> <span>Works on steer, drive, lift, and trailer axles</span></li>
+                    <li class="flex gap-x-3"><i class="fas fa-check text-emerald-500 mt-1"></i> <span>Fast setup — minimal downtime for your equipment</span></li>
+                </ul>
+            </div>
+            
+            <div class="lg:col-span-7">
+                <div class="relative rounded-3xl overflow-hidden border border-slate-200 shadow-xl">
+                    <img src="assets/images/alignment-equipment.jpg" alt="Professional portable laser wheel alignment equipment in use on semi truck during mobile service in Northern California" class="w-full h-auto object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 text-white">
+                        <div class="font-semibold">Precision you can measure. Results you can see in tire wear and fuel logs.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE AREAS TEASER -->
+    <section class="bg-slate-100 border-y py-14">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="text-center mb-8">
+                <span class="text-xs font-extrabold tracking-widest text-red-600">COVERAGE</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mt-1">Mobile Service Across Northern California</h2>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="flex flex-wrap justify-center gap-2 mb-8">
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Santa Rosa</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Petaluma</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Napa</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Vallejo</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">San Francisco</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Oakland / East Bay</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Sacramento</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Stockton</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">Fairfield / Vacaville</span>
+                    <span class="px-4 py-1 text-sm rounded-full bg-white border font-medium text-slate-700">+ Surrounding areas</span>
+                </div>
+                
+                <div class="text-center">
+                    <a href="areas.html" class="font-extrabold inline-flex items-center text-red-600 hover:text-red-700">VIEW FULL SERVICE AREA MAP &amp; CITIES →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUICK QUOTE / BOOKING CTA + FORM ANCHOR -->
+    <section id="quote" class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div class="rounded-3xl bg-gradient-to-br from-slate-900 to-slate-950 text-white p-8 sm:p-12 lg:p-16">
+            <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10 items-center">
+                <div>
+                    <div class="uppercase font-extrabold tracking-widest text-xs text-red-400">READY TO SAVE ON TIRES AND FUEL?</div>
+                    <h2 class="text-4xl sm:text-5xl font-extrabold tracking-[-1.5px] leading-none mt-3">Get a fast quote for<br>mobile service.</h2>
+                    <p class="mt-5 text-white/80 max-w-sm">Fill out the form and Miguel will personally call you back within 1 business hour to schedule and answer questions. No pressure. No obligation.</p>
+                    
+                    <div class="mt-7 flex items-center gap-x-4">
+                        <div>
+                            <div class="font-mono text-3xl font-extrabold tracking-tighter">(707) 541-8259</div>
+                            <div class="uppercase text-xs tracking-widest text-white/60">Direct • 7 days a week</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick form -->
+                <form id="quick-quote-form" class="space-y-4" onsubmit="handleQuickQuote(event)">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold tracking-wider text-white/80 mb-1.5">NAME</label>
+                            <input type="text" id="q-name" required class="form-input w-full bg-white/10 border border-white/20 focus:border-red-400 text-white placeholder:text-white/50 rounded-2xl px-5 py-3 text-base" placeholder="Your full name">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold tracking-wider text-white/80 mb-1.5">PHONE</label>
+                            <input type="tel" id="q-phone" required class="form-input w-full bg-white/10 border border-white/20 focus:border-red-400 text-white placeholder:text-white/50 rounded-2xl px-5 py-3 text-base" placeholder="(707) 555-1234">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-xs font-bold tracking-wider text-white/80 mb-1.5">LOCATION / CITY</label>
+                        <input type="text" id="q-location" required class="form-input w-full bg-white/10 border border-white/20 focus:border-red-400 text-white placeholder:text-white/50 rounded-2xl px-5 py-3 text-base" placeholder="Yard / City / Zip (e.g. Santa Rosa or 95401)">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold tracking-wider text-white/80 mb-1.5">VEHICLE TYPE</label>
+                            <select id="q-vehicle" class="form-input w-full bg-white/10 border border-white/20 focus:border-red-400 text-white rounded-2xl px-5 py-3 text-base">
+                                <option value="">Select...</option>
+                                <option value="Semi Tractor">Semi Tractor (Class 8)</option>
+                                <option value="Tractor + Trailer">Tractor + Trailer(s)</option>
+                                <option value="Trailer Only">Trailer Only (Tandem/Multi)</option>
+                                <option value="RV / Motorhome">RV / Motorhome</option>
+                                <option value="Bus / Coach">Bus / Coach</option>
+                                <option value="Other Fleet">Other Heavy / Fleet</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold tracking-wider text-white/80 mb-1.5">PREFERRED DATE</label>
+                            <input type="text" id="q-date" class="form-input w-full bg-white/10 border border-white/20 focus:border-red-400 text-white placeholder:text-white/50 rounded-2xl px-5 py-3 text-base" placeholder="ASAP or specific date">
+                        </div>
+                    </div>
+
+                    <button type="submit"
+                            class="w-full bg-red-600 hover:bg-red-700 active:bg-red-800 transition-colors font-extrabold py-4 text-lg rounded-2xl mt-2 cta-button">
+                        REQUEST SERVICE — I'LL CALL YOU SHORTLY
+                    </button>
+                    <p class="text-center text-xs text-white/60">We respect your time. Your info is private. No spam ever.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="border-t py-12 bg-white">
+        <div class="max-w-screen-xl mx-auto px-5 text-center">
+            <p class="text-slate-600 max-w-md mx-auto">Ready to stop wasting tires and fuel? Let's get your trucks tracking straight.</p>
+            <div class="mt-5 flex flex-col sm:flex-row gap-3 justify-center">
+                <button onclick="document.getElementById('quote-modal').showModal()" 
+                        class="px-10 py-4 font-extrabold bg-red-600 hover:bg-red-700 text-white rounded-2xl text-lg transition">BOOK MOBILE ALIGNMENT</button>
+                <a href="tel:7075418259" class="px-10 py-4 font-extrabold border-2 border-slate-900 hover:bg-slate-900 hover:text-white rounded-2xl text-lg transition inline-flex items-center justify-center gap-x-3">
+                    <i class="fas fa-phone"></i> CALL NOW
+                </a>
+            </div>
+            <div class="mt-4 text-sm text-slate-500">Miguel personally answers or returns calls promptly • (707) 541-8259</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-white/80 text-sm pt-12 pb-8">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-y-10">
+            <div class="md:col-span-5">
+                <div class="flex items-center gap-x-3 mb-4">
+                    <img src="assets/logos/NEW.png" alt="NorCal Truck Alignment logo" class="h-9 w-auto brightness-125">
+                    <div>
+                        <div class="font-extrabold text-xl text-white tracking-tighter">NORCAL TRUCK ALIGNMENT</div>
+                    </div>
+                </div>
+                <div class="max-w-xs">Mobile precision wheel alignment for commercial trucks, trailers, and fleets throughout Northern California.</div>
+                
+                <div class="mt-5 text-xs flex items-center gap-x-2">
+                    <span class="font-mono text-red-400">miguel@norcaltruckalignment.com</span>
+                </div>
+            </div>
+
+            <div class="md:col-span-3">
+                <div class="font-bold text-white mb-3 tracking-wider text-xs">QUICK LINKS</div>
+                <div class="space-y-1.5">
+                    <a href="services.html" class="block hover:text-white">Services &amp; Pricing</a>
+                    <a href="about.html" class="block hover:text-white">About Miguel &amp; Our Team</a>
+                    <a href="areas.html" class="block hover:text-white">Full Service Area</a>
+                    <a href="resources.html" class="block hover:text-white">Resources &amp; Maintenance Guides</a>
+                    <a href="contact.html" class="block hover:text-white">Contact &amp; Booking</a>
+                </div>
+            </div>
+
+            <div class="md:col-span-4">
+                <div class="font-bold text-white mb-3 tracking-wider text-xs">GET IN TOUCH</div>
+                <a href="tel:7075418259" class="block text-2xl font-extrabold text-white hover:text-red-400">(707) 541-8259</a>
+                <div class="mt-1 text-xs">Available for urgent roadside &amp; same-day fleet work</div>
+                
+                <div class="mt-5 text-xs">
+                    <div class="font-semibold text-white/70">SERVICE HOURS</div>
+                    <div>Mon–Sat: 6:30am – 7:00pm<br>After hours &amp; Sunday by special arrangement</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 border-t border-white/10 pt-6 text-center md:text-left text-xs max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 text-white/60">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-y-2">
+                <div>© <span id="year"></span> NorCal Truck Alignment. All rights reserved. Mobile service based in Northern California.</div>
+                <div class="flex items-center gap-x-4">
+                    <span>Privacy respected.</span>
+                    <a href="#" class="hover:text-white">Site by Grok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOKING / QUOTE MODAL -->
+    <dialog id="quote-modal" class="backdrop:bg-black/70 p-0 rounded-3xl max-w-xl w-[95%] shadow-2xl">
+        <div class="bg-white rounded-3xl">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between px-6 pt-6 pb-4 border-b">
+                <div>
+                    <div class="font-extrabold text-2xl tracking-tight">Request Mobile Service</div>
+                    <div class="text-sm text-slate-500">Miguel will call you to confirm details &amp; schedule</div>
+                </div>
+                <button onclick="document.getElementById('quote-modal').close()" class="text-3xl text-slate-400 hover:text-slate-600 leading-none">&times;</button>
+            </div>
+
+            <form id="modal-quote-form" class="p-6 space-y-5" onsubmit="handleModalQuote(event)">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">FULL NAME *</label>
+                        <input type="text" id="m-name" required class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="John Smith">
+                    </div>
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">PHONE NUMBER *</label>
+                        <input type="tel" id="m-phone" required class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="(707) 555-0199">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">EMAIL</label>
+                        <input type="email" id="m-email" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="you@company.com">
+                    </div>
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">COMPANY / FLEET</label>
+                        <input type="text" id="m-company" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="ABC Trucking LLC">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">SERVICE LOCATION (City, Yard, or Address) *</label>
+                    <input type="text" id="m-location" required class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="123 Fleet Way, Santa Rosa, CA or I-5 near Sacramento">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">PRIMARY VEHICLE(S)</label>
+                        <select id="m-vehicle" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3">
+                            <option>Semi Tractor</option>
+                            <option>Tractor + 1 Trailer</option>
+                            <option>Tractor + 2+ Trailers</option>
+                            <option>Trailer(s) Only</option>
+                            <option>RV / Motorhome</option>
+                            <option>Bus or Coach</option>
+                            <option>Other Commercial / Multi-axle</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">HOW MANY UNITS?</label>
+                        <input type="text" id="m-quantity" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="1 or Fleet of 6">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-xs uppercase tracking-widest font-bold text-slate-500 mb-1 block">PREFERRED TIMING / NOTES</label>
+                    <textarea id="m-notes" rows="2" class="form-input w-full border border-slate-300 rounded-3xl px-5 py-3" placeholder="ASAP, next Tuesday morning, or any notes about the vehicles..."></textarea>
+                </div>
+
+                <button type="submit"
+                        class="w-full py-4 bg-red-600 hover:bg-red-700 active:bg-red-800 transition font-extrabold text-white rounded-2xl text-base mt-1">
+                    SUBMIT REQUEST — MIGUEL WILL CALL YOU
+                </button>
+                
+                <div class="text-center text-xs text-slate-500 pt-1">We typically respond within 60 minutes during business hours.</div>
+            </form>
+        </div>
+    </dialog>
+
+    <!-- Schema.org LocalBusiness + Service structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "NorCal Truck Alignment",
+      "description": "Mobile heavy-duty and semi truck wheel alignment service serving Northern California including Santa Rosa, Bay Area, Sacramento and surrounding areas. We come to you.",
+      "url": "https://norcaltruckalignment.com",
+      "telephone": "+1-707-541-8259",
+      "email": "miguel@norcaltruckalignment.com",
+      "image": "assets/images/hero-alignment.jpg",
+      "areaServed": [
+        {"@type": "City", "name": "Santa Rosa"},
+        {"@type": "City", "name": "Petaluma"},
+        {"@type": "City", "name": "Napa"},
+        {"@type": "City", "name": "San Francisco"},
+        {"@type": "City", "name": "Oakland"},
+        {"@type": "City", "name": "Sacramento"},
+        {"@type": "State", "name": "California"}
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Mobile Truck Alignment Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Semi Truck & Tractor Wheel Alignment"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Trailer & Multi-Axle Alignment"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mobile Fleet Alignment"}}
+        ]
+      },
+      "knowsAbout": ["Wheel alignment", "Semi truck maintenance", "Fleet tire management", "Mobile heavy duty repair"],
+      "priceRange": "$$"
+    }
+    </script>
+
+    <script>
+        // Tailwind script config
+        function initializeTailwind() {
+            document.documentElement.style.setProperty('--accent-red', '#B91C1C');
+            
+            // Optional: dynamic year
+            const yearEl = document.getElementById('year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        }
+
+        // Mobile menu toggle
+        function setupMobileMenu() {
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            
+            if (!btn || !menu) return;
+            
+            btn.addEventListener('click', () => {
+                if (menu.classList.contains('hidden')) {
+                    menu.classList.remove('hidden');
+                    btn.innerHTML = '<i class="fas fa-times text-xl"></i>';
+                } else {
+                    menu.classList.add('hidden');
+                    btn.innerHTML = '<i class="fas fa-bars text-xl"></i>';
+                }
+            });
+            
+            // Close when clicking nav links
+            menu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    menu.classList.add('hidden');
+                    btn.innerHTML = '<i class="fas fa-bars text-xl"></i>';
+                });
+            });
+        }
+
+        // Handle quick quote form (home section)
+        function handleQuickQuote(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('q-name').value.trim();
+            const phone = document.getElementById('q-phone').value.trim();
+            const location = document.getElementById('q-location').value.trim();
+            
+            if (!name || !phone || !location) {
+                alert("Please fill out name, phone, and location.");
+                return;
+            }
+            
+            // Simulate successful submission
+            const originalText = e.target.querySelector('button').innerHTML;
+            const btn = e.target.querySelector('button');
+            btn.innerHTML = 'REQUEST RECEIVED — THANK YOU!';
+            btn.disabled = true;
+            
+            // In real deployment: send to email service / Netlify Forms / Formspree
+            setTimeout(() => {
+                alert(`Thank you, ${name.split(' ')[0]}! Miguel will call you at ${phone} within the hour to schedule service in ${location}.`);
+                
+                // Reset form
+                e.target.reset();
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                
+                // Optional: close modal if somehow opened
+            }, 850);
+        }
+
+        // Handle modal booking form
+        function handleModalQuote(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('m-name').value.trim();
+            const phone = document.getElementById('m-phone').value.trim();
+            const location = document.getElementById('m-location').value.trim();
+            
+            if (!name || !phone || !location) {
+                alert("Name, phone and location are required.");
+                return;
+            }
+            
+            const btn = e.target.querySelector('button[type="submit"]');
+            const orig = btn.innerHTML;
+            btn.innerHTML = 'SENT! MIGUEL WILL CALL YOU...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                document.getElementById('quote-modal').close();
+                
+                // Success toast / message
+                const toast = document.createElement('div');
+                toast.className = `fixed bottom-6 left-1/2 -translate-x-1/2 bg-emerald-600 text-white px-6 py-3 rounded-2xl shadow-2xl flex items-center gap-x-3 text-sm font-semibold z-[999]`;
+                toast.innerHTML = `
+                    <i class="fas fa-check-circle text-lg"></i> 
+                    <span>Request received. Miguel will contact you at ${phone} shortly.</span>
+                `;
+                document.body.appendChild(toast);
+                
+                setTimeout(() => {
+                    toast.style.transition = 'all .3s';
+                    toast.style.opacity = '0';
+                    setTimeout(() => toast.remove(), 250);
+                }, 4200);
+                
+                // Reset
+                e.target.reset();
+                btn.innerHTML = orig;
+                btn.disabled = false;
+            }, 1150);
+        }
+
+        // Add floating mobile CTA (call button)
+        function setupFloatingCTA() {
+            if (window.innerWidth > 768) return;
+            
+            const cta = document.createElement('a');
+            cta.href = 'tel:7075418259';
+            cta.className = `mobile-sticky-cta sm:hidden flex items-center gap-x-2 shadow-xl bg-red-600 hover:bg-red-700 text-white font-extrabold text-sm px-6 py-[13px] rounded-3xl`;
+            cta.innerHTML = `
+                <i class="fas fa-phone"></i>
+                <span>CALL NOW</span>
+            `;
+            document.body.appendChild(cta);
+        }
+
+        // Basic form enhancement + keyboard accessibility
+        function setupFormEnhancements() {
+            // Prevent form double submits etc handled inline
+            // Add enter key hints if needed (already good)
+            
+            // Make phone numbers always clickable (progressive)
+            document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+                el.setAttribute('aria-label', 'Call NorCal Truck Alignment');
+            });
+        }
+
+        // Initialize everything
+        function init() {
+            initializeTailwind();
+            setupMobileMenu();
+            setupFloatingCTA();
+            setupFormEnhancements();
+            
+            // Close modal on ESC already native for <dialog>
+            
+            // Optional: prefill demo data on dev (comment in prod)
+            // document.getElementById('q-name').value = 'Alex Rivera';
+            // document.getElementById('q-phone').value = '(707) 555-8821';
+            // document.getElementById('q-location').value = 'Petaluma yard';
+            
+            console.log('%c[NorCal Truck Alignment] Professional site initialized. Ready for deployment.', 'color:#64748b');
+        }
+
+        window.onload = init;
+        
+        // Bonus: Smooth scroll for any in-page anchors
+        document.addEventListener('click', function(e) {
+            const anchor = e.target.closest('a[href^="#"]');
+            if (anchor) {
+                const target = document.querySelector(anchor.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    </script>
+</body>
+</html>

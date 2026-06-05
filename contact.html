@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact &amp; Book Mobile Service | NorCal Truck Alignment — Santa Rosa, Bay Area, Sacramento</title>
+    <meta name="description" content="Contact NorCal Truck Alignment for mobile semi truck and heavy duty wheel alignment. Call (707) 541-8259 or email miguel@norcaltruckalignment.com. Fast response. We come to you in Northern California.">
+    <link rel="icon" href="assets/logos/NEW.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Roboto+Condensed:wght@700&amp;display=swap');
+        .tail-container { font-family: 'Inter', system_ui, -apple-system, sans-serif; }
+        .heading-condensed { font-family: 'Roboto Condensed', 'Inter', system_ui, sans-serif; font-weight: 700; letter-spacing: -0.025em; }
+        .nav-link:hover { color: #B91C1C; }
+        .logo-img { max-height: 46px; width: auto; }
+        .form-input:focus { border-color: #B91C1C; box-shadow: 0 0 0 3px rgba(185,28,28,.1); outline: none; }
+    </style>
+</head>
+<body class="tail-container bg-slate-50">
+    <div class="bg-slate-900 text-white py-1.5 px-4 text-sm"><div class="max-w-screen-xl mx-auto">Miguel answers or calls back promptly • (707) 541-8259</div></div>
+
+    <header class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-x-3">
+                <img src="assets/logos/NEW.png" alt="NorCal Truck Alignment logo" class="logo-img h-10">
+                <div class="hidden sm:block"><div class="font-extrabold tracking-tighter text-xl">NORCAL TRUCK</div><div class="text-red-600 text-[9.5px] font-extrabold -mt-1 tracking-[1.8px]">ALIGNMENT</div></div>
+            </a>
+            <nav class="hidden md:flex gap-x-7 text-sm font-semibold">
+                <a href="index.html" class="nav-link text-slate-700">Home</a>
+                <a href="services.html" class="nav-link text-slate-700">Services</a>
+                <a href="about.html" class="nav-link text-slate-700">About</a>
+                <a href="areas.html" class="nav-link text-slate-700">Areas</a>
+                <a href="resources.html" class="nav-link text-slate-700">Resources</a>
+                <a href="contact.html" class="nav-link text-red-600 font-extrabold">Contact</a>
+            </nav>
+            <div>
+                <a href="tel:7075418259" class="hidden sm:inline-flex bg-slate-900 text-white font-bold px-5 py-2 rounded-2xl text-sm"><i class="fas fa-phone mr-2"></i> CALL NOW</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-screen-xl mx-auto px-5 sm:px-6 lg:px-8 pt-10 pb-16">
+        <div class="grid lg:grid-cols-12 gap-x-12 gap-y-12">
+            <!-- Contact info -->
+            <div class="lg:col-span-5">
+                <div class="uppercase text-xs font-extrabold tracking-[2.5px] text-red-600">LET'S GET YOUR TRUCKS STRAIGHT</div>
+                <h1 class="text-5xl font-extrabold tracking-tighter mt-2">Contact &amp; Booking</h1>
+                
+                <div class="mt-8 space-y-6">
+                    <div>
+                        <div class="text-xs font-bold tracking-wider text-slate-500">DIRECT PHONE</div>
+                        <a href="tel:7075418259" class="text-3xl font-extrabold text-red-600 hover:underline">(707) 541-8259</a>
+                        <div class="text-sm text-slate-600">Call or text. Miguel personally handles scheduling.</div>
+                    </div>
+                    <div>
+                        <div class="text-xs font-bold tracking-wider text-slate-500">EMAIL</div>
+                        <a href="mailto:miguel@norcaltruckalignment.com" class="font-bold text-xl hover:text-red-600">miguel@norcaltruckalignment.com</a>
+                    </div>
+                    <div>
+                        <div class="text-xs font-bold tracking-wider text-slate-500">SERVICE HOURS</div>
+                        <div class="font-semibold">Monday – Saturday • 6:30am – 7:00pm</div>
+                        <div class="text-sm text-slate-500">After-hours and Sunday available for urgent fleet &amp; roadside work.</div>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-5 bg-white border rounded-3xl text-sm">
+                    <div class="font-bold">Fast Response Guarantee</div>
+                    <div class="text-slate-600 mt-1">Most quote requests receive a call back within 1 hour during business hours. We know downtime is expensive.</div>
+                </div>
+            </div>
+
+            <!-- Full booking form -->
+            <div class="lg:col-span-7 bg-white border rounded-3xl p-8">
+                <div class="font-extrabold text-2xl">Request Mobile Service</div>
+                <div class="text-sm text-slate-500 mb-5">Fill out the form below. Miguel will call you to confirm details and schedule your alignment.</div>
+
+                <form id="contact-form" onsubmit="submitContactForm(event)">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">FULL NAME *</label>
+                            <input required type="text" id="c-name" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">PHONE *</label>
+                            <input required type="tel" id="c-phone" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="(707) 555-1212">
+                        </div>
+                    </div>
+
+                    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">EMAIL</label>
+                            <input type="email" id="c-email" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="you@yourfleet.com">
+                        </div>
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">COMPANY</label>
+                            <input type="text" id="c-company" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="Company or Fleet name">
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">SERVICE LOCATION (City, Address, or Yard) *</label>
+                        <input required type="text" id="c-location" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="e.g. 4500 Petaluma Hill Rd, Santa Rosa or I-80 near Fairfield">
+                    </div>
+
+                    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">PRIMARY VEHICLE TYPE *</label>
+                            <select required id="c-vehicle" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3">
+                                <option value="">Select vehicle type...</option>
+                                <option>Semi Tractor (Class 8)</option>
+                                <option>Tractor + Trailer(s)</option>
+                                <option>Trailer Only (Tandem / Multi-axle)</option>
+                                <option>RV / Motorhome</option>
+                                <option>Bus / Coach / Shuttle</option>
+                                <option>Other Heavy Commercial</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">NUMBER OF UNITS</label>
+                            <input type="text" id="c-quantity" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="1 truck or fleet of 8">
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">PREFERRED DATE / URGENCY</label>
+                        <input type="text" id="c-date" class="form-input w-full border border-slate-300 rounded-2xl px-5 py-3" placeholder="ASAP, next Monday, or specific date &amp; time window">
+                    </div>
+
+                    <div class="mt-4">
+                        <label class="text-xs uppercase font-bold tracking-widest text-slate-500 mb-1 block">ADDITIONAL DETAILS OR NOTES</label>
+                        <textarea id="c-notes" rows="3" class="form-input w-full border border-slate-300 rounded-3xl px-5 py-3" placeholder="Recent tire work? Specific handling issues? Multiple trailers? Anything else Miguel should know..."></textarea>
+                    </div>
+
+                    <button type="submit" class="mt-6 w-full py-4 rounded-2xl bg-red-600 hover:bg-red-700 active:bg-red-800 transition font-extrabold text-white text-lg">
+                        SUBMIT BOOKING REQUEST — MIGUEL WILL CALL YOU
+                    </button>
+                    <p class="text-center text-xs text-slate-500 mt-2">Your information is kept private and used only to schedule your service.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Map + quick actions -->
+        <div class="mt-14 grid lg:grid-cols-5 gap-6">
+            <div class="lg:col-span-3 rounded-3xl overflow-hidden border">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126000!2d-122.72!3d38.44!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085b0e0a0a0a0a0%3A0x123456!2sSanta%20Rosa%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="lg:col-span-2 bg-white border rounded-3xl p-6 flex flex-col">
+                <div class="font-extrabold">Quick Actions</div>
+                <a href="tel:7075418259" class="mt-4 flex-1 flex items-center justify-center gap-x-3 bg-red-600 text-white rounded-2xl font-extrabold text-lg hover:bg-red-700">CALL (707) 541-8259</a>
+                <a href="mailto:miguel@norcaltruckalignment.com" class="mt-3 flex-1 flex items-center justify-center gap-x-3 border border-slate-300 rounded-2xl font-bold hover:bg-slate-50">EMAIL MIGUEL</a>
+                <div class="mt-6 text-xs text-slate-500">We serve Santa Rosa, Bay Area, Sacramento Valley, and all of Northern California.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-slate-950 py-8 text-xs text-white/70">
+        <div class="max-w-screen-xl mx-auto px-5 flex flex-col md:flex-row justify-between gap-y-2 items-center">
+            <div>© <span id="year"></span> NorCal Truck Alignment. Mobile wheel alignment for Northern California commercial fleets.</div>
+            <div class="text-white/50">miguel@norcaltruckalignment.com • (707) 541-8259</div>
+        </div>
+    </footer>
+
+    <script>
+        function submitContactForm(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('c-name').value.trim();
+            const phone = document.getElementById('c-phone').value.trim();
+            
+            if (!name || !phone) {
+                alert("Name and phone are required so Miguel can reach you.");
+                return;
+            }
+            
+            const btn = e.target.querySelector('button[type="submit"]');
+            const original = btn.innerHTML;
+            btn.innerHTML = 'SENDING TO MIGUEL...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = 'REQUEST RECEIVED!';
+                
+                // Success message
+                const success = document.createElement('div');
+                success.className = 'mt-4 bg-emerald-50 border border-emerald-200 text-emerald-700 px-5 py-3 rounded-2xl text-sm font-semibold';
+                success.innerHTML = `Thank you, ${name.split(' ')[0]}! Miguel will call or text you at <strong>${phone}</strong> within the hour (during business hours) to schedule your mobile alignment.`;
+                e.target.parentNode.appendChild(success);
+                
+                e.target.reset();
+                
+                setTimeout(() => {
+                    btn.innerHTML = original;
+                    btn.disabled = false;
+                }, 1400);
+            }, 900);
+        }
+
+        window.onload = () => {
+            const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+        };
+    </script>
+</body>
+</html>
